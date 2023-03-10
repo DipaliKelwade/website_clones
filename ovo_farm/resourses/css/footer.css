@@ -1,0 +1,366 @@
+#footer-div{
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    background-color: #3f3f3f;
+    display: flex;
+    justify-content: center;
+}
+/* About Us Div */
+.aboutus-div{
+   left: 3%;
+    position: relative;
+}
+.aboutus-text1{
+    color: #fcb712;
+    font-size: 1.5rem;
+}
+.aboutus-text2{
+    color: white;
+}
+.aboutus-button{
+    background-color: transparent;
+    border-style: none;
+    color: #fcb712;
+    margin-left: 50%;
+}
+.aboutus-button:hover{
+    border-style:solid;
+    border-color: #fcb712;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Quick Links Div */
+#quicklinks-div{
+   left: 6%;
+   position: relative; 
+  
+}
+.quicklinks-text1{
+    color: #fcb712;
+    font-size: 1.5rem;
+}
+.quicklinks-links{
+    position: relative;
+    left: 1.5rem;
+}
+.link1{
+    position: relative;
+    bottom: 12.2rem;
+    text-decoration: none;
+    color: white;
+}
+.link2{
+    position: relative;
+    bottom: 12.5rem;
+    text-decoration: none;
+    color: white;
+}
+.link3{
+    position: relative;
+    bottom: 12.7rem;
+    text-decoration: none;
+    color: white;
+}
+.link4{
+    position: relative;
+    bottom: 12.9rem;
+    text-decoration: none;
+    color: white;
+}
+.link5{
+    position: relative;
+    bottom: 13.1rem;
+    text-decoration: none;
+    color: white;
+}
+.link6{
+    position: relative;
+    bottom: 13.4rem;
+    text-decoration: none;
+    color: white;
+}
+.logobutton1{
+    position: relative;
+   background-image: url(../images/logo1.png);
+   padding: 24px;
+   border-radius: 25px;
+   border-style: none;
+   bottom: 12rem;
+   right: .5rem;
+}
+.logobutton2{
+    position: relative;
+   background-image: url(../images/logo2.png);
+   padding: 24px;
+   border-radius: 25px;
+   border-style: none;
+   bottom: 12rem;
+   right: .5rem;
+}
+.logobutton3{
+    position: relative;
+   background-image: url(../images/logo3.png);
+   padding: 24px;
+   border-radius: 25px;
+   border-style: none;
+   bottom: 12rem;
+   right: .5rem;
+}
+.logobutton4{
+    position: relative;
+   background-image: url(../images/logo4.png);
+   padding: 24px;
+   border-radius: 25px;
+   border-style: none;
+   bottom: 12rem;
+   right: .5rem;
+}
+/* Health corner css */
+#healthcorner-div{
+    position: relative;
+    left: 11%;
+}
+.healthcorner-text1{
+    color: #fcb712;
+    font-size: 1.5rem;
+}
+.healthcorner-text2{
+    position: relative;
+    left: 8rem;
+    color: #fcb712;
+    text-decoration: none;
+    bottom: 10.6rem;
+}
+.healthcorner-text3{
+    position: relative;
+    left: 8rem;
+    color: white;
+    font-size: 12px;
+    bottom: 10.1rem;
+}
+.healthcorner-btn1{
+    position: relative;
+    text-decoration: none;
+    color: #fcb712;
+    font-size: 12px;
+    left: 9rem;
+    top: 3.5rem;
+}
+.healthcorner-text21{
+    position: relative;
+    left: 8rem;
+    color: #fcb712;
+    text-decoration: none;
+    bottom: 7.3rem;
+}
+.healthcorner-text31{
+    position: relative;
+    left: 8rem;
+    color: white;
+    font-size: 12px;
+    bottom: 7rem;
+}
+.healthcorner-btn2{
+    position: relative;
+    text-decoration: none;
+    color: #fcb712;
+    font-size: 12px;
+    left: 9rem;
+    top: 8rem;
+}
+/* Contact Us div */
+#contactus-div{
+    position: relative;
+    left: 24%;
+}
+.contactus-text1{
+    color: #fcb712;
+    font-size: 1.5rem;
+}
+.contactus-text2{
+    position: relative;
+    left: 1.7rem;
+    color: white;
+    bottom: 2.1rem;
+}
+.contactus-text3{
+    position: relative;
+    left: 1.7rem;
+    color: white;
+    bottom: 4.1rem;
+}
+.contactus-text4{
+    position: relative;
+    left: 1.7rem;
+    color: white;
+    bottom: 6.1rem;
+}
+.contactus-text5{
+    position: relative;
+    left: 1.7rem;
+    color: white;
+    bottom: 8.1rem;
+}
+.contactus-text6{
+    position: relative;
+    left: 1.7rem;
+    color: white;
+    bottom: 9.4rem;
+    text-decoration: none;
+}
+.contactus-text7{
+    position: relative;
+    left: 1.7rem;
+    color: white;
+    bottom: 8.4rem;
+    text-decoration: none;
+}
+.mailarea{
+    position: relative;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 5rem;
+    border-style: none;
+    right: 43%;
+}
+.contactus-btn1{
+    position: relative;
+    background-image: url(../images/btn1.png);
+    border-radius: 10px;
+    height: -20px;
+    width: 52px;
+    padding: 24px;
+    border-radius: 28px;
+    bottom: 5.3rem;
+    right: 45%;
+}
+/* End text  */
+#endtext-div{
+    position: relative;
+}
+.p1{
+    color: #fcb712;
+    position: relative;
+    top: 28rem;
+    right: 270%;
+}
+.p2{
+    color: #fcb712;
+    position: relative;
+    top: 25.9rem;
+    right: 200%;
+}
+.p3{
+    color: #fcb712;
+    position: relative;
+    top: 23.7rem;
+    right: 70%;
+}
+@media only screen and (max-width: 800px){
+    
+    #footer-div{
+        position: absolute;
+        height: 140%;
+        padding-right: 130%;
+        
+        
+    }
+    .aboutus-div{
+        left: 135%;
+        white-space: nowrap;
+    }
+    #quicklinks-div{
+        float: right;
+        left: 185%;
+        white-space: nowrap;
+    }
+    .quicklinks-text1{
+        white-space: nowrap;
+    }
+    #healthcorner-div{
+        position: relative;
+        top: 25rem;
+        left: 35%;
+        white-space: nowrap;
+    }
+    #contactus-div{
+        white-space: nowrap;
+        position: relative;
+        top: 25rem;
+        left: 95%;
+    }
+    #endtext-div{
+        position: relative;
+       
+    }
+    .p1{ 
+        position: relative;
+        top: 55rem;
+        right: 28rem;
+
+}
+.p2{
+    
+    position: relative;
+    top: 56rem;
+    right:31rem;
+    white-space: nowrap;
+}
+.p3{
+    position: relative;
+    top: 58rem;
+    right: 33rem;
+    white-space: nowrap;
+}
+}
+
+/* @media only screen and (max-width: 600px){
+    #footer-div{
+        height: 240%;
+        
+    }
+    .aboutus-div{
+        left: 88%;
+        white-space: nowrap;
+    }
+    #quicklinks-div{
+        float: right;
+        left: 94%;
+        white-space: nowrap;
+    }
+    .quicklinks-text1{
+        white-space: nowrap;
+    }
+    #healthcorner-div{
+        position: relative;
+        top: 25rem;
+        left: 22%;
+        white-space: nowrap;
+    }
+    #contactus-div{
+        white-space: nowrap;
+        position: relative;
+        top: 60%;
+        left: -15%;
+    }
+    .p1{ 
+        position: relative;
+        top: 82rem;
+        right: 28rem;
+}
+.p2{
+    
+    position: relative;
+    top: 83rem;
+    right:31rem;
+    white-space: nowrap;
+}
+.p3{
+    position: relative;
+    top: 84rem;
+    right: 33rem;
+    white-space: nowrap;
+}
+} */

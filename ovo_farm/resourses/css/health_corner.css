@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+/* header section */
+.header{
+    position: fixed;
+    background: #ffffff;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.header .navBar{
+    position: relative;
+    margin: auto;
+    padding: 15px;
+}
+.header .navBar #logo{
+    width: 187px;
+    position: absolute;
+    top: -10px;
+    left: 3.5rem;
+
+}
+.navMenu{
+    position: fixed;
+    padding: 3rem;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    color: #FCB712;
+    background-color: #313131;
+    display: flex;
+    flex-direction: column;
+    transition: 1s all ease;
+    transform: translateX(1000px);
+}
+.navMenu .menuList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navMenu .menuList .menuItem{
+    margin: 20px 0;
+    list-style: none;
+}
+.header .navMenu .close{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.header .navBar button , .header .navMenu button{
+    background-color: #FCB712;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.header .navBar button img, .header .navMenu button img{
+    width: 20px;
+    margin-top: 2px;
+}
+.header .navBar .search , .header .navMenu .search{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    padding-top: 3px;
+}
+
+.header .navBar .search .hamberger{
+    display: none;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-top: 8px;
+    height: 20px;
+    justify-content: space-between;
+    /* height: ; */
+}
+.header .navBar .search .hamberger span{
+    width: 20px;
+    height: 2px;
+    background-color: #FCB712;
+    margin-top: 4px;
+}
+.header .navBar .search input , .header .navMenu .search input{
+  color: #777;
+  border: none;
+  padding: 10px;
+  background-color: #e3e3e3;
+  border-radius: 30px 0 0 30px;
+}
+.header .navBar .navList{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+    color: #ffb911;
+}
+.header .navBar .navList .navItem{
+    margin-left: 10px;
+}
+
+
+/* content section */
+.mainSection{
+    margin-top: 5rem;
+}
+.cardSection{
+    padding: 1rem 0px ;
+}
+.cards {
+    width: 100%;
+    background: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards .cardItem {
+    width: calc(100%/3);
+    padding: 1rem ;
+    box-sizing: border-box;
+}
+.cards .cardItem:hover .body{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+}
+.cards .cardItem .body .cardImage img{
+    width: 100%;
+}
+.cards .cardItem .body .content{
+    padding: 1rem;
+}
+
+.cards .cardItem .body .content h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cards .cardItem .body .content h3 a{
+    color: #FCB712;
+}
+.cards .cardItem .body .content p{
+    color: #777;
+    margin: 1rem 0;
+}
+
+@media only screen and (max-width: 1024px){
+    .header .navBar .navList{
+        display: none;
+    }
+    .header .navBar .search .hamberger{
+        display: flex;
+    }
+    .cards .cardItem {
+        width: calc(100%/2);
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .header .navBar #logo{
+        width: 100px;
+    }
+    .header .navBar .search input, .header .navBar .search button{
+        display: none;
+    }
+    .cards .cardItem {
+        width: calc(100%);
+    }
+}
+/* @media only screen and (max-width: 768px){
+    
+} */
